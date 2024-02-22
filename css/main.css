@@ -1,0 +1,156 @@
+body {
+    
+   font-family: 'Tangerine', serif;
+    background-image: url("https://www.clipartsgram.com/image/239973659-wooden-background-texture-pattern-images-for-website-hd-template-psd-free-download.jpg");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+    background-size:cover;
+		background-color: rgb(255, 255,200);
+}
+.jumbotron {
+   background: rgb(243, 230, 255); /* This is for ie8 and below */
+   background: rgba(243, 230, 255, 0.5); 
+}
+
+a{
+   text-decoration: none !important;
+}
+
+a:link {
+color: white;
+}
+
+a:visited {
+  color: white;
+ 
+  
+}
+
+a:hover {
+  color: black;
+}
+.about{
+   font-size: 34px;
+   text-shadow: 4px 4px 4px #aaa;
+   font-weight: bold;
+   color: black;
+   text-align:center;
+ 
+}
+
+.portfolio{
+   font-size: 34px;
+   text-shadow: 4px 4px 4px #aaa;
+   font-weight: bold;
+   color: black;
+   text-align:center;
+  
+}
+.nav-style {
+  font-size:18px;
+  font-family:Lato;
+ 
+}
+.purple-background{
+  background:#f2e6ff;
+}
+
+.purple-border-circle {
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50%;
+  }
+
+
+.navbar-collapse.collapse {
+display: block!important;
+}
+
+.navbar-nav>li, .navbar-nav {
+float: left !important;
+}
+
+.navbar-nav.navbar-right:last-child {
+margin-right: -15px !important;
+}
+
+.navbar-right {
+float: right!important;
+}
+
+.section-header{
+  margin-top:40px;
+  font-size:36px;
+  font-family:Lato;
+  text-align:center;
+}
+
+.portfolio-item{
+  
+  margin: 0 0 10px;
+  background:   #99a3a4
+ none repeat scroll 0 0;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+    font-size: 0.85em;
+    font-weight: bold;
+    font-family: lato;
+    padding: 8px 10px 4px;
+    position: relative;
+    white-space: nowrap;
+    overflow:hidden;
+}
+
+
+.cover-link {
+    border: 0 none !important;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+.menu {
+  margin-left:-28px;
+}
+.menu-category {
+ display: inline-block;
+  margin:0px;
+ padding:  1rem;
+}
+
+.row {
+ -moz-column-width: 18em;
+ -webkit-column-width: 18em;
+ -moz-column-gap: 1em;
+ -webkit-column-gap: 1em; 
+  column-width:18em;
+  column-gap:1em;
+}
+.email-address{
+  text-align:center;
+  margin-top:5px;
+   font-size:35px;
+   font-family: "Tangerine",serif;
+  font-weight:bold;
+  margin-bottom:10px;
+}
+.contact{
+  margin-top:6px;
+  text-align:center;
+  font-style:lato;
+  line-height:30px;
+  font-size:25px;
+}
+.link{
+    margin:5px;
+}
+.note{
+  font-style:lato;
+  text-align:right;
+  margin-top:20px;
+  font-size:20px;
+  font-weight:bold;
+}
