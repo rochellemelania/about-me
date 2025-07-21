@@ -2,7 +2,68 @@
     background-color: black;
     color: white;
     text-align: center;
-    margin: 0px;
     font-size: 40px;
     font-weight: bold;
+    line-height: 80px;
 }
+body {
+    font-family: "proxima nova bold", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+
+} 
+
+h1 {
+       font-family: 57.5px;      
+}
+
+td {
+    padding-right: 25px
+}
+
+#title-group{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#title-group .title {
+    position:relative;
+    justify-content: center;
+    margin: 10px;
+    top: 45px;
+}
+
+.skills-center {
+    height: 1px;
+    background: #dddddd;
+    border-bottom: #ffffff solid 1px;
+    margin-bottom: 1.25rem;
+    margin-top: 25px;
+    position: relative;
+}
+
+.skills-center h3{
+    background: #fafafa;
+    font-family: "proxima nova bold", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    height: 22px;
+    left: 50%;
+    letter-spacing: 2.5px;
+    line-height: 22px;
+    margin-bottom: 20px;
+    margin-inline-start: -160px;
+    margin-left: -160px;
+    margin-top: 0px;
+    position: absolute;
+    text-align: center;
+    text-rendering: optimizelegibility;
+    top: -10px;
+    vertical-align: bottom;
+    width: 320px; /* Adjusted width to fit the title */
+}
+.skills {
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;     
+}
+
+   
