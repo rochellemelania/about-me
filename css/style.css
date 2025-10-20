@@ -107,10 +107,17 @@ td {
     margin: 10px;
     width: 340px; /* Fixed width for each card */
     height: 200px; /* Fixed height for each card */
+    
+  
   
 }
 
-
+.card-title img {
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
 
 .card {
     border: 1px solid #ddd;
