@@ -18,7 +18,7 @@
 
 body {
     font-family: "proxima nova bold", "Helvetica Neue", Helvetica, Arial, Sans-serif;
-
+     background-color: #c0bfbf;
 } 
 
 h1 {
@@ -120,7 +120,6 @@ td {
 }
 
 .card {
-    border: 1px solid #ddd;
     border-radius: 15px;
     text-align: center;
     margin: 10px;
@@ -204,7 +203,7 @@ td {
     padding: 1.2rem;
     font-weight: 400;
     border-width: 2px;
-    color: white;
+   
     border-radius: 15px;
     opacity: 0;
 }
